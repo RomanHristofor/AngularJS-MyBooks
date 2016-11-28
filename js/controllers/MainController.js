@@ -33,6 +33,22 @@ app.controller('MainController', ['$scope', function($scope){
       cover: 'img/JavaScript_Shablony-2011.jpg',
       likes: 0,
       dislikes: 0
+    },
+    { 
+      name: 'Steve McConnell Code Complete', 
+      price: 10.89, 
+      pubdate: new Date('2014', '02', '11'), 
+      cover: 'img/McConnell.jpg',
+      likes: 0,
+      dislikes: 0
+    },
+    { 
+      name: 'Charles Petzold Code: The Hidden Language of Computer', 
+      price: 17.99, 
+      pubdate: new Date('2000', '09', '12'), 
+      cover: 'img/Petzold.jpg',
+      likes: 0,
+      dislikes: 0
     }
   ];
   $scope.plusOne = function(index) {
