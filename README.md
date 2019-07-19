@@ -1,4 +1,4 @@
 # This application on Angularjs
 
 
-page view - http://romanhristofor.github.io/my-books
+page view - http://romanhristofor.github.io/AngularJS-MyBooks
